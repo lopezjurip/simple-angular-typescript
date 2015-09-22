@@ -1,0 +1,24 @@
+{
+  "name": "converter-ts",
+  "version": "0.1.0",
+  "description": "Unit converter",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [
+    "angular",
+    "typescript"
+  ],
+  "author": "Patricio López <lopezjuripatricio@gmail.com> (https://lopezjuri.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.0",
+    "typescript": "^1.6.2"
+  },
+  "dependencies": {
+    "angular": "^1.4.6"
+  }
+}

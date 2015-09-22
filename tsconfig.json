@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es3",
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "out": "build/app.js",
+        "rootDir": "src",
+        "sourceMap": false
+    },
+    "filesGlob": [
+        "typings/**/*.ts",
+        "_references.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "typings/angularjs/angular.d.ts",
+        "typings/jquery/jquery.d.ts",
+        "typings/tsd.d.ts",
+        "_references.ts"
+    ]
+}
