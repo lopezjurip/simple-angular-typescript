@@ -4,7 +4,16 @@ var converter;
     "use strict";
     var ConvertionController = (function () {
         function ConvertionController() {
+            this.units = [
+                { type: "lenght" },
+                { type: "mass" },
+                { type: "time" },
+            ];
+            this.current = this.units[0];
         }
+        ConvertionController.prototype.setCurrent = function () {
+            alert(this.current);
+        };
         return ConvertionController;
     })();
     converter.ConvertionController = ConvertionController;
@@ -33,6 +42,7 @@ var converter;
         $routeProvider
             .when("/", {
             controller: "ConvertionController",
+            controllerAs: "convertionCtrl",
             templateUrl: "src/partials/main_menu.html"
         })
             .when("/formula", {

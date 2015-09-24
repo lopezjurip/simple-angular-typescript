@@ -1,1 +1,10 @@
-<h1>Main Menu</h1>
+<!DOCTYPE html>
+<h1>ConverterTS</h1>
+
+<div class="col-md-4 form-group">
+    <select class="form-control"
+            ng-options="option.type for option in convertionCtrl.units"
+            ng-model="convertionCtrl.current">
+
+    </select>
+</div>

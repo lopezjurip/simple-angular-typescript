@@ -6,13 +6,15 @@ module converter {
     "use strict";
 
     const app = angular.module("converter-ts", ["ngRoute"]);
+
     app.controller("ConvertionController", ConvertionController);
     app.controller("FormulaController", FormulaController);
 
-    app.config(($routeProvider) => {
+    app.config(($routeProvider: angular.route.IRouteProvider) => {
         $routeProvider
             .when("/", {
                 controller: "ConvertionController",
+                controllerAs: "convertionCtrl",
                 templateUrl: "src/partials/main_menu.html",
             })
             .when("/formula", {
