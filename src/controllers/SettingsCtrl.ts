@@ -39,6 +39,4 @@ module converter {
             // ...
         }
     }
-
-    app.controller("SettingsCtrl", SettingsCtrl);
 }
