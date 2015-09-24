@@ -5,6 +5,4 @@ module converter {
     "use strict";
 
     const app = angular.module("converter-ts", []);
-
-    app.controller("SettingsCtrl", SettingsCtrl);
 }
