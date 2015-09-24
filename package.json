@@ -2,8 +2,8 @@
   "name": "converter-ts",
   "version": "0.1.0",
   "description": "Unit converter",
-  "main": "index.js",
   "scripts": {
+    "start": "python3 -m http.server",
     "build": "gulp"
   },
   "keywords": [
@@ -19,6 +19,7 @@
     "typescript": "^1.6.2"
   },
   "dependencies": {
-    "angular": "^1.4.6"
+    "angular": "^1.4.6",
+    "angular-route": "^1.4.6"
   }
 }

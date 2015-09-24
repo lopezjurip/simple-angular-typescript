@@ -3,4 +3,7 @@
 module converter {
     "use strict";
 
+    export class ConvertionController {
+
+    }
 }

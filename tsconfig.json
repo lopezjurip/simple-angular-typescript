@@ -5,7 +5,7 @@
         "noImplicitAny": false,
         "preserveConstEnums": true,
         "removeComments": true,
-        "out": "build/app.js",
+        "out": "src/app.js",
         "rootDir": "src",
         "sourceMap": false
     },
@@ -17,10 +17,12 @@
         "node_modules"
     ],
     "files": [
+        "typings/angularjs/angular-route.d.ts",
         "typings/angularjs/angular.d.ts",
         "typings/jquery/jquery.d.ts",
         "typings/tsd.d.ts",
         "src/app.ts",
-        "src/controllers/SettingsCtrl.ts"
+        "src/controllers/ConvertionController.ts",
+        "src/controllers/FormulaController.ts"
     ]
 }
